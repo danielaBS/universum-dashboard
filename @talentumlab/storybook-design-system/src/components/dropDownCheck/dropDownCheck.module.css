@@ -1,0 +1,47 @@
+.container_dropDownCheck {
+  position: relative;
+  /* background-color: aqua; */
+  /* padding: 0; */
+  margin: 0;
+}
+.dropDownCheck {
+  /* background: #001275; */
+  /* height: 100%; */
+  /* width: 100%; */
+  display: flex;
+  align-items: center;
+  padding: 5px 16px;
+  /* min-width: 4.5rem; */
+  cursor: pointer;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 4px rgba(174, 174, 174, 0.24);
+  border-radius: 5px;
+
+  /* overflow-y: hidden; */
+}
+.customClass {
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+.dropDownCheck__title {
+  /* background-color: blueviolet; */
+  width: 100%;
+  color: rgb(255, 255, 255);
+  margin-right: 0.7rem;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.dropDownCheck__icon {
+  /* background-color: rgb(144, 238, 22); */
+  width: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  /* margin-top: -0.3rem; */
+  cursor: pointer;
+}

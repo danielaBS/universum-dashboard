@@ -1,0 +1,11 @@
+.container-service4 {
+  /* background-color: thistle; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.container-service4 > div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}

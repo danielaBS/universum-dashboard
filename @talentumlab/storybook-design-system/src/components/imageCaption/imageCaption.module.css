@@ -1,0 +1,10 @@
+.image-caption {
+    box-shadow: 1px 1px 5px gray;
+    border-radius: 5px;
+    /* margin: 0.5em; */
+}
+
+.image-caption__content{
+    padding: 1em;
+    text-align: left;
+}

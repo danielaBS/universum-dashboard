@@ -1,0 +1,18 @@
+.container-service1 {
+  /* background-color: teal; */
+  width: 80%;
+}
+.container-service1 > div:first-child {
+    width: 40%;
+}
+.container-service1__row {
+  display: flex;
+  margin-top: 3rem;
+}
+.container-service1__row > div:first-child {
+  width: 70%;
+  margin-right: 3rem;
+}
+.container-service1__row > div:last-child {
+  width: auto;
+}

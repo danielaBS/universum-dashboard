@@ -1,0 +1,48 @@
+.button_sst {
+  border: 1px solid transparent;
+  cursor: pointer;
+  border-radius: 2px;
+  padding: 4px 15px;
+  line-height: 2;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 3px 1px -2px rgb(0 0 0 / 20%),
+    0px 2px 2px 0px rgb(0 0 0 / 14%), 0px 1px 5px 0px rgb(0 0 0 / 12%);
+}
+
+.button_sst:disabled {
+  cursor: not-allowed;
+  color: white;
+  box-shadow: none;
+  background-color:#C8C8C8;
+}
+
+.primary_sst {
+  border-color: #182c74;
+  background: #182c74;
+  color: white;
+}
+
+.primary_sst:hover {
+  border-color: #13245e;
+  background: #13245e;
+  color: white;
+  box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%),
+    0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+}
+
+.secondary_sst {
+  border-color: #ffcd05;
+  background: #ffcd05;
+  color: white;
+}
+
+.secondary_sst:hover {
+  border-color: #eabc07;
+  background: #eabc07;
+  color: white;
+  box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%),
+    0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+}

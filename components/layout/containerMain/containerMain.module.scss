@@ -1,0 +1,11 @@
+.container {
+  position: absolute;
+  right: 0;
+  margin-top: calc(var(--height-navbar) + 1rem);
+  width: calc(100% - var(--width-sidebar));
+}
+@media (max-width: 870px) {
+  .container {
+    width: 100%;
+  }
+}

@@ -1,0 +1,33 @@
+.container {
+  background-color: white;
+}
+.container_users {
+  //   background-color: aquamarine;
+  position: relative;
+  padding-bottom: 2rem;
+}
+.container__alert {
+  position: absolute;
+  width: 100%;
+  //   background-color: aqua;
+  display: flex;
+  justify-content: flex-start;
+}
+.users_management {
+  width: auto;
+  min-height: calc(100vh - 7.8rem);
+  height: auto;
+  background: white;
+  border-radius: 10px;
+  //   margin-top: 1rem;
+  padding: 25px;
+  box-sizing: border-box;
+}
+.users_management_action {
+  width: auto;
+  height: auto;
+  border-radius: 10px;
+  padding: 1rem 1rem;
+  box-sizing: border-box;
+  background-color: white;
+}

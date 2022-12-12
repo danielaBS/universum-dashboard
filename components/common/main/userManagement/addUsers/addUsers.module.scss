@@ -1,0 +1,109 @@
+.add {
+  //   background-color: aquamarine;
+  margin: 0;
+  font-family: 'Inter-Regular';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #323232;
+
+  .add_status {
+    position: absolute;
+    right: 1.5rem;
+    top: 39px;
+    display: flex;
+    align-items: center;
+    & > div:first-child {
+      font-family: 'Inter-Regular';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      // line-height: 19px;
+      color: #191919;
+    }
+    & > div:last-child {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 8px;
+      box-sizing: border-box;
+      width: 8.1rem;
+      height: 31px;
+      background: #ffe5e5;
+      border-radius: 51px;
+      font-family: 'Inter-Regular';
+      font-size: 14px;
+      margin-left: 1.25rem;
+      color: #cf2c2c;
+    }
+  }
+  @media (max-width: 870px) {
+    .add_status {
+      position: absolute;
+      left: 1rem;
+      top: 65px;
+    }
+  }
+
+  & .add__user {
+    display: flex;
+    flex-direction: column;
+    // width: 14rem;
+    // background-color: #c8c8c8;
+
+    & > div:first-child {
+      margin-bottom: 0.5rem;
+      margin-top: 1rem;
+    }
+
+    & .add_dropdown {
+      position: relative;
+      width: 18rem;
+      //   background-color: #c8c8c8;
+    }
+  }
+  @media (max-width: 870px) {
+    .add__user {
+      margin-top: 1rem;
+    }
+    
+  }
+  & .column_container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    & .inputs_container {
+      display: flex;
+      flex-direction: column;
+      margin: 0 2rem 0 0;
+      & .add__title {
+      display: flex;
+      flex-direction: column;
+      width: 18rem;
+      margin: 0.7rem 0 0 0;
+      & .add_input {
+        margin: 0.7rem 0;
+        //   width: 15rem;
+        
+        & input {
+          border: 1px solid #e1e1e1 !important;
+        }
+      }
+    }
+  }
+}
+  & .add__upload {
+    margin-top: 2rem;
+  }
+  & .add_buttons {
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: flex-end;
+
+    & :last-child {
+      margin-left: 1rem;
+    }
+  }
+}

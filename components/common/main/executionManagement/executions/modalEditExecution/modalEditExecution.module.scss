@@ -1,0 +1,67 @@
+.modal_body {
+    width: 100%;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    //   background-color: #c8c8c8;
+    padding: 1rem;
+    box-sizing: border-box;
+    .title {
+      font-family: 'Inter-Bold';
+      font-style: normal;
+      // font-weight: 700;
+      font-size: 25px;
+      line-height: 34px;
+      color: #000000;
+      margin-top: 2rem;
+    }
+    .text {
+      font-family: 'Inter-Regular';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      color: #191919;
+      margin: 1rem 0 3rem 0;
+    }
+  }
+  
+  .title_input {
+    margin: 0.5rem 0;
+    font-family: 'Inter-Regular';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 22px;
+    color: #323232;
+  }
+  .description {
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    box-sizing: border-box;
+  
+    font-family: 'Inter-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    color: #c8c8c8;
+    padding: 0.5rem;
+  }
+  .modal_text_area > textarea {
+    width: 100%;
+    //   background-color: blueviolet;
+  }
+  .error {
+    color: red;
+  }
+  .modal_buttons {
+    display: flex;
+    margin-top: 0.7rem;
+    justify-content: flex-end;
+    //   background-color: #c8c8c8;
+    padding-right: 1.5rem;
+  
+    & > :last-child {
+      margin-left: 1rem;
+    }
+  }

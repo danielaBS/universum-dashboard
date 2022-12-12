@@ -1,0 +1,98 @@
+.table_component {
+  max-width: 100%;
+  min-width: 48.4375rem;
+  // background-color: aqua;
+  // border: none;
+  height: auto;
+
+  & table {
+    // padding: '5px 10px';
+    // background-color: #ebf8f9;
+    background: #ebf8f9;
+    height: auto;
+    border: none;
+    width: 100%;
+    table-layout: fixed;
+    & thead {
+      & .th {
+        //   border-bottom: 1px solid black;
+        position: relative;
+        background: #ebf8f9;
+        border-radius: 5px 5px 0px 0px;
+        padding: 0.8rem 0.4rem;
+        color: #4b4b4b;
+        font-family: 'Inter-Bold';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        cursor: pointer;
+        text-align: center;
+        width: 10rem;
+
+        &::after {
+          content: '';
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          width: 100%;
+          height: 0.3rem;
+          transform: scaleX(0);
+          background-color: #18b979;
+          transition: transform 0.3s;
+          box-sizing: border-box;
+        }
+        &:hover::after {
+          transform: scaleX(1);
+          color: #18b979;
+        }
+
+        &:hover {
+          background-color: #ebf8f9;
+          color: #18b979;
+        }
+      }
+      .th_active {
+        color: #18b979;
+
+        &::after {
+          content: '';
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          border: 1px solid #18b979;
+          border-radius: 5px;
+          width: 100%;
+          height: 0.3rem;
+          transform: scaleX(1);
+          color: #18b979;
+          background-color: #18b979;
+          transition: transform 0.3s;
+        }
+        &::before {
+          position: relative;
+          display: block;
+          padding: 0.3em 0;
+          background-color: white;
+          box-sizing: border-box;
+        }
+      }
+    }
+    & tbody {
+      & td {
+        border-bottom: 1px solid #e1e1e1;
+        background: #ffffff;
+        padding: 0.8rem 0.2rem;
+        color: #323232;
+        font-family: 'Inter-Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+      }
+    }
+  }
+}

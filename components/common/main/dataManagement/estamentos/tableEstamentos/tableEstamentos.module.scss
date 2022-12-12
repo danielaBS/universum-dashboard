@@ -1,0 +1,170 @@
+.table__container {
+  overflow-x: auto;
+  .table__periods {
+    border: none;
+    width: 100%;
+    // min-width: 50rem;
+    background: #ebf8f9;
+    height: auto;
+    table-layout: auto;
+    & thead {
+      & .th {
+        //   border-bottom: 1px solid black;
+        position: relative;
+        background: #ebf8f9;
+        border-radius: 5px 5px 0px 0px;
+        padding: 0.8rem 0;
+        color: #4b4b4b;
+        font-family: 'Inter-Bold';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        min-width: 5rem;
+        cursor: pointer;
+
+        &::after {
+          content: '';
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          width: 100%;
+          height: 0.3rem;
+          transform: scaleX(0);
+          background-color: #00a4ad;
+          transition: transform 0.3s;
+          box-sizing: border-box;
+        }
+        &:hover::after {
+          transform: scaleX(1);
+          color: #31b8bf;
+        }
+
+        &:hover {
+          background-color: #ebf8f9;
+          color: #31b8bf;
+        }
+      }
+      .th_active {
+        color: #31b8bf;
+
+        &::after {
+          content: '';
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          border: 1px solid #00a4ad;
+          border-radius: 5px;
+          width: 100%;
+          height: 0.3rem;
+          transform: scaleX(1);
+          color: #00a4ad;
+          background-color: #00a4ad;
+          transition: transform 0.3s;
+        }
+        &::before {
+          position: relative;
+          display: block;
+          padding: 0.3em 0;
+          background-color: white;
+          box-sizing: border-box;
+        }
+      }
+    }
+    & tbody {
+      & td {
+        border-bottom: 1px solid #e1e1e1;
+        background: #ffffff;
+        padding: 0.8rem 0;
+        color: #323232;
+        font-family: 'Inter-Regular';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+
+        & .table__periods_title {
+          display: flex;
+          // background-color: aqua;
+          align-items: center;
+          justify-content: space-around;
+        }
+        & .table__periods_icon {
+          // background-color: aqua;
+          padding: 0 0.2rem;
+          width: 18px;
+          cursor: pointer;
+          &:hover {
+            transform: scale(1.2);
+          }
+        }
+        & .state {
+          width: 100%;
+          // background: #6fe252;
+          display: flex;
+          justify-content: center;
+          line-height: 19px;
+          font-size: 14px;
+
+          & .open {
+            width: 4rem;
+            background: #d1ffc6;
+            border-radius: 20px;
+            padding: 4px 5px;
+            color: #006d36;
+          }
+          & .closed {
+            width: 4rem;
+            background: #caf0f3;
+            border-radius: 20px;
+            padding: 4px 5px;
+            color: #005a5f;
+          }
+        }
+      }
+      & :first-child {
+        text-align: center;
+      }
+    }
+  }
+}
+.buttons {
+  width: 100%;
+  height: 40px;
+  list-style: none;
+  display: flex;
+  font-weight: 600;
+  padding-inline-start: 0;
+  justify-content: flex-end;
+
+  a {
+    color: #323232;
+    padding: 1px 8px;
+    margin: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+
+    transition: 0.3s;
+    &:hover {
+      color: white;
+      background-color: #028188;
+    }
+  }
+}
+.activePage {
+  a {
+    color: white;
+    background-color: var(--primary6);
+  }
+}
+.disabled {
+  display: none;
+}
+@media (max-width: 870px) {
+  .table__periods {
+    width: 100%;
+  }
+}

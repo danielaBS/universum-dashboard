@@ -1,0 +1,13 @@
+.container-header3 {
+  width: 100%;
+}
+
+.container-header3 > div:nth-child(2) {
+  margin-top: 1.8rem;
+  margin-bottom: 1.8rem;
+  width: 40%;
+}
+.container-header3__row {
+  display: flex;
+  justify-content: space-between;
+}

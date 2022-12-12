@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;600;700;800;900&display=swap");
+* {
+  font-family: "Spartan", sans-serif !important;
+}
+:root,
+body {
+  font-family: "Spartan", sans-serif !important;
+}
+
+.regular {
+  font-weight: normal;
+}
+
+.medium {
+  font-weight: 500;
+}
+
+.semibold {
+  font-weight: 600;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.extrabold {
+  font-weight: 800;
+}
+
+.black {
+  font-weight: 900;
+}

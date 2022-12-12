@@ -1,0 +1,60 @@
+.container_dropDownCheck {
+  position: relative;
+  /* background-color: aqua; */
+  max-width: 12rem;
+  margin-left: 1rem;
+  /* padding: 0; */
+  /* margin: 0; */
+}
+.container_fitler_table {
+  background: #f7f8fa;
+  height: 36px;
+  display: flex;
+  width: 4rem;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.fitler_table {
+  display: flex;
+  align-items: center;
+}
+.fitler_table > div:first-child {
+  margin-right: 0.4rem;
+  display: flex;
+  align-items: center;
+}
+.fitler_table div:last-child {
+  display: flex;
+  flex-direction: column;
+}
+.customClass {
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+.dropDownCheck__title {
+  /* background-color: blueviolet; */
+  width: 100%;
+  color: rgb(255, 255, 255);
+  margin-right: 0.7rem;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.dropDownCheck__icon {
+  /* background-color: rgb(144, 238, 22); */
+  width: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  /* margin-top: -0.3rem; */
+  cursor: pointer;
+}

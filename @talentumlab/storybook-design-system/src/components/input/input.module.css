@@ -1,0 +1,46 @@
+.input {
+  position: relative;
+  /* background-color: aqua; */
+  /* width: auto; */
+  display: flex;
+  align-items: center;
+}
+.input__label {
+  letter-spacing: 0px;
+  color: #6f7070;
+  font-size: 18px;
+  cursor: text;
+  margin-bottom: 0.4rem;
+}
+.input__login {
+  padding: 5px 16px;
+  border: 1px solid #7c7c7c;
+  letter-spacing: 0px;
+  background: transparent;
+  outline: none;
+  box-sizing: border-box;
+  background-color: white;
+}
+.input__show-pass {
+  position: absolute;
+  right: 0;
+  height: 17px;
+  width: 17px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+.input__hidden-pass {
+  position: absolute;
+  right: 0;
+  height: 14px;
+  width: 14px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #6f7070;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 1rem;
+  cursor: pointer;
+}

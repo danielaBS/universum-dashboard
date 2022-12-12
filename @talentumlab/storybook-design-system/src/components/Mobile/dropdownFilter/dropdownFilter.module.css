@@ -1,0 +1,25 @@
+/* .filtersOptions {
+  display: grid;
+  gap: 0.3rem;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  flex-wrap: wrap;
+  background-color: thistle;
+  width: 85%;
+  font-size: 14px;
+  margin-top: 20px;
+} */
+
+.option {
+  border: #112d31 solid 1px;
+  background-color: transparent;
+  border-radius: 6px;
+  /* margin: 5px; */
+  padding: 4px 10px;
+  color: #112d31;
+}
+
+@media (max-width: 400px) {
+  .option {
+    width: 100%;
+  }
+}

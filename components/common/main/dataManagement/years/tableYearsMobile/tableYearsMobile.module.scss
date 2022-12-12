@@ -1,0 +1,50 @@
+.tableMobile {
+  margin-top: 1rem;
+}
+.tableMobile_row {
+  display: flex;
+  /* background-color: antiquewhite; */
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+}
+.table__periods_check {
+  margin-top: 1.3rem;
+  margin-right: 0.5rem;
+}
+.table__periods_dropdown {
+  width: 100%;
+}
+
+.buttons {
+  width: 100%;
+  height: 40px;
+  list-style: none;
+  display: flex;
+  font-weight: 600;
+  padding-inline-start: 0;
+  justify-content: flex-end;
+
+  a {
+    color: #323232;
+    padding: 1px 8px;
+    margin: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+
+    transition: 0.3s;
+    &:hover {
+      color: white;
+      background-color: #028188;
+    }
+  }
+}
+.activePage {
+  a {
+    color: white;
+    background-color: var(--primary6);
+  }
+}
+.disabled{
+  display: none;
+}

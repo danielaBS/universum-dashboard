@@ -1,0 +1,9 @@
+.container-header1 {
+  width: 100%;
+}
+
+.container-header1 > div:nth-child(2) {
+  margin-top: 1.8rem;
+  margin-bottom: 1.8rem;
+  width: 40%;
+}

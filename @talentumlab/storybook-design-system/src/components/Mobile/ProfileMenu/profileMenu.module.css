@@ -1,0 +1,46 @@
+.container{
+    width: 40%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border: black 2px solid;
+    border-radius: 10px;
+    padding: 20px 20px 20px 20px;
+    text-align: start;
+}
+.option{
+    width: 100%;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+.container .option:last-child{
+    margin-bottom: 0;
+}
+.option p{
+    color: black;
+    margin: 0;
+}
+.divider{
+    width: 90%;
+    height: 2px;
+    background: black;
+    margin-top: 10px;
+}
+.container .option:last-child .divider{
+    display: none;
+}
+
+.triangle{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: white;
+  border: 2px solid black;
+  transform: rotate(45deg);
+  top: -12.5px;
+  left: 50%;
+  border-right: none;
+  border-bottom: none;
+}

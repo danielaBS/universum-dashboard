@@ -1,0 +1,28 @@
+.container{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+    border: black 3px solid;
+    padding: 1.5rem;
+    border-radius: 15px;
+    font-size: 0.72rem;
+}
+.container_divider{
+    width: 90%;
+    height: 3px;
+    background: black;
+    margin-bottom: 10px;
+}
+.container_card_info{
+    display: flex;
+    color: #707070;
+}
+
+.childrenContainer{
+    width: 100%;
+}
+.childrenContainer img{
+    width: 100%;
+}

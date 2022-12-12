@@ -1,0 +1,19 @@
+.container-header2 {
+  width: 100%;
+}
+
+.container-header2 > div:nth-child(2) {
+  margin-top: 1.8rem;
+  margin-bottom: 1.8rem;
+  width: 40%;
+}
+.container-header2__row {
+  display: flex;
+}
+.container-header2__row > div:first-child {
+  width: 70%;
+  margin-right: 5rem;
+}
+.container-header2__row > div:last-child {
+  width: auto;
+}

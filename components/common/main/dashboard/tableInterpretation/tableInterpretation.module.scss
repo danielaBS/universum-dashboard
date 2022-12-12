@@ -1,0 +1,80 @@
+@keyframes placeHolderShimmer {
+  0% {
+    background-position: -468px 0;
+  }
+  100% {
+    background-position: 468px 0;
+  }
+}
+
+.animation_lazy {
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-name: placeHolderShimmer;
+  background: #f6f7f8;
+  background: linear-gradient(to right, #eeeeee 8%, #dddddd 18%, #eeeeee 33%);
+  animation-timing-function: linear;
+  background-size: 1000px 104px;
+  min-height: 15rem;
+  position: relative;
+  overflow: hidden;
+  color: transparent !important;
+  font-size: 0 !important;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  text-align: center;
+  & h2 {
+    font-size: 20px;
+    margin-top: 0.8rem;
+    margin-bottom: 0rem;
+  }
+
+  & h4 {
+    color: #afafaf;
+    font-size: 16px;
+    margin: 0 0 1rem 0;
+    font-family: 'Inter-Regular';
+    font-weight: 400;
+  }
+  & .table__search_dropdown {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+
+    & .search {
+      width: 30%;
+      min-width: 14rem;
+      padding: 0 16px 0 0;
+      height: 36px;
+    }
+    & .dropdown {
+      position: relative;
+      & > div:first-child {
+        box-sizing: border-box;
+        margin-bottom: 0 !important;
+        padding: 0 10px;
+        background-color: #f7f8fa !important;
+        box-shadow: none !important;
+      }
+      & > div:last-child {
+        // margin-top: 0.5rem;
+        z-index: 1;
+      }
+    }
+  }
+}
+@media (max-width: 870px) {
+  .table {
+    padding-bottom: 0;
+  }
+}

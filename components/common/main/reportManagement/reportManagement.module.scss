@@ -1,0 +1,21 @@
+.container_periods {
+  //   background-color: aquamarine;
+  position: relative;
+  padding-bottom: 2rem;
+}
+.container__alert {
+  position: absolute;
+  width: 100%;
+  //   background-color: aqua;
+  display: flex;
+  justify-content: center;
+}
+.data_management {
+  width: 100%;
+  height: calc(100vh - var(--height-navbar) - 4rem);
+  background: #ffffff;
+  border-radius: 10px;
+  //   margin-top: 1rem;
+  //   padding: 24px 24px;
+  box-sizing: border-box;
+}

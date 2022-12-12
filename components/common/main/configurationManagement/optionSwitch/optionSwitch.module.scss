@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 42px 0;
+  & .container_text {
+    display: flex;
+    flex-direction: column;
+    margin-right: 73.12px;
+
+    & > p:first-child {
+      font-size: 18px;
+      font-weight: 500;
+      font-family: Inter-Regular;
+      color: #000000;
+      margin: 0 0 10px 0;
+    }
+    & > p:last-child {
+      font-size: 14px;
+      font-weight: 400;
+      font-family: Inter-Regular;
+      color: #4b4b4b;
+      margin: 0;
+    }
+  }
+}

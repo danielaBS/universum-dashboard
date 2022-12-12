@@ -1,0 +1,36 @@
+.blocks__mobile {
+  box-shadow: 1px 1px 5px gray;
+  border-radius: 5px;
+  /* margin: 0.5em; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.blocks__mobile--item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 0 !important;
+  border-left: 0 !important;
+  border-right: 0 !important;
+  padding: 2em 0;
+  width: 100%;
+}
+
+.blocks__mobile--item .blocks__mobile--img {
+  cursor: pointer;
+}
+
+.blocks__mobile--item:last-child {
+  border-bottom: 0px;
+}
+
+.blocks__mobile--content {
+  text-align: center;
+}
+
+.blocks__mobile--button {
+  padding: 1em 0;
+}

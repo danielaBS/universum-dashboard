@@ -1,0 +1,11 @@
+.drops_form_basic {
+  //   background-color: aqua;
+  font-family: 'Inter-Regular';
+  //   width: 8rem;
+  width: 16rem;
+}
+@media (max-width: 870px) {
+  .drops_form_basic {
+    width: 100%;
+  }
+}

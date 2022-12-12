@@ -1,0 +1,114 @@
+@font-face {
+  font-family: 'Lato';
+  src: url('../public/fonts/Lato-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Inter-Bold';
+  src: url('../public/fonts/Inter-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Inter-Regular';
+  src: url('../public/fonts/Inter-Regular.ttf') format('truetype');
+}
+
+body {
+  background-color: white;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+/* Custom properties */
+:root {
+  --height-navbar: 4rem;
+  --width-sidebar: 10.625rem;
+  --color-background: #f7f8fa;
+  --color-background-card: #ffffff;
+  --color-main: #18b979;
+  --tooltip-arrow-size: 6px;
+
+  /* Neutral */
+  --neutral1: #f8fafc;
+  --neutral2: #f1f5f9;
+  --neutral3: #e2e8f0;
+  --neutral4: #cbd5e1;
+  --neutral5: #94a3b8;
+  --neutral6: #64748b;
+  --neutral7: #475569;
+  --neutral8: #334155;
+  --neutral9: #1e263b;
+  --neutral10: #0f172a;
+  /* Primary */
+  --primary1: #ebf8f9;
+  --primary2: #caf0f3;
+  --primary3: #a4e2e7;
+  --primary4: #77d0d8;
+  --primary5: #50bdc7;
+  --primary6: #31b8bf;
+  --primary7: #18b979;
+  --primary8: #028188;
+  --primary9: #005a5f;
+  --primary10: #01383b;
+  /* Secondary */
+  --secondary1: #ffceae;
+  --secondary2: #ffae79;
+  --secondary3: #ff9854;
+  --secondary4: #ff8231;
+  --secondary5: #ff8730;
+  --secondary6: #f16913;
+  --secondary7: #e8610d;
+  --secondary8: #d9641b;
+  --secondary9: #c75e18;
+  --secondary10: #ad4500;
+  /* Success */
+  --success1: #d1ffc6;
+  --success2: #d5ffcb;
+  --success3: #c9ffbb;
+  --success4: #73eba6;
+  --success5: #1edc7d;
+  --success6: #00c161;
+  --success7: #009848;
+  --success8: #006d36;
+  --success9: #0c502a;
+  --success10: #064e3b;
+  /* Warning */
+  --warning1: #fff7b1;
+  --warning2: #fcd34d;
+  --warning3: #f59e0b;
+  --warning4: #b43314;
+  --warning5: #711a0a;
+  /* Error */
+  --error1: #fef2f2;
+  --error2: #ffe5e5;
+  --error3: #fecaca;
+  --error4: #fca5a5;
+  --error5: #fb7171;
+  --error6: #ef4444;
+  --error7: #eb002b;
+  --error8: #cf2c2c;
+  --error9: #b30012;
+  --error10: #72000d;
+  /* Shades */
+  --shades1: #ffffff;
+  --shades2: #000000;
+  /* Greys */
+  --greys1: #fafafa;
+  --greys2: #e1e1e1;
+  --greys3: #c8c8c8;
+  --greys4: #afafaf;
+  --greys5: #969696;
+  --greys6: #4b4b4b;
+  --greys7: #323232;
+  --greys8: #191919;
+  /* Background */
+  --background1: #f5f8fa;
+  --background2: #f7f8fa;
+  --background3: #edf1f8;
+  --background4: #f1f5f9;
+}

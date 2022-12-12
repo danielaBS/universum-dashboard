@@ -1,0 +1,38 @@
+.actions__year {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 1.5rem 0;
+  height: 36px;
+  & > div:first-child {
+    display: flex;
+    align-items: flex-start;
+    margin-left: 0rem;
+    //   background-color: aquamarine;
+  }
+  & > div:last-child {
+    display: flex;
+    align-items: center;
+
+    .icon_delete {
+      margin-right: 1rem;
+      width: 16px;
+      cursor: pointer;
+
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+  }
+  @media (max-width: 870px) {
+    & .button_create {
+      & > button > span {
+        margin-right: 0 !important;
+      }
+    }
+  }
+}
+.table__years {
+  width: 100%;
+  margin: 0;
+}

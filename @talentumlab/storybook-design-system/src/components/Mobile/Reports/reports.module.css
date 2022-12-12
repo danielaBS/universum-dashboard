@@ -1,0 +1,171 @@
+.container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: black solid 2px;
+  border-radius: 10px;
+  padding: 10px 0px;
+}
+.containerActive {
+  /* max-height: auto;
+    animation: slideDownContainer 0.3s ease-out; */
+  padding-bottom: 50px;
+}
+/* @keyframes slideDownContainer {
+    0%{
+        height: auto;
+        overflow: hidden;
+    }
+    100%{
+        max-height: 35rem;
+        overflow: hidden;
+    }
+} */
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+.header button {
+  font-size: 1rem;
+  border: none;
+  background: none;
+  padding: 0;
+  margin-left: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  text-align: start;
+}
+.header img {
+  width: 1rem;
+  margin-right: 20px;
+  transition: ease-out 0.1s;
+}
+.imageRotated {
+  transform: rotate(180deg);
+  animation: imageRotatedAnimation 0.1s ease-out;
+}
+@keyframes imageRotatedAnimation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(180deg);
+  }
+}
+.divider {
+  margin-top: 5px;
+  height: 2px;
+  width: 90%;
+  background: black;
+}
+
+.menuContent {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-height: 100%;
+  /* overflow: hidden; */
+  animation: slideDownMenuContent 0.1s ease-out;
+}
+@keyframes slideDownMenuContent {
+  0% {
+    display: none;
+    transform: scaleY(0);
+  }
+  100% {
+    display: inline;
+    transform: scaleY(1);
+  }
+}
+
+.menuInfo {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  padding: 10px;
+  border: black 2px solid;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.summary {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-size: 0.8rem;
+}
+
+.summaryTitle {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.summaryTitle p {
+  margin: 0;
+  padding-top: 5px;
+  margin-left: 15px;
+}
+.summaryTypered {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: red;
+}
+.summaryTitlered {
+  color: red;
+}
+
+.summaryInfo {
+  width: 100%;
+  text-align: start;
+}
+.summaryInfoBlock {
+  display: flex;
+}
+.summaryInfoBlock p {
+  margin: 10px 0px;
+}
+
+.menuMainData {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 90%;
+  margin-top: 20px;
+}
+
+.menuMainData img {
+  width: 100%;
+}
+
+.downloadButtonContainer{
+  position: relative;
+  width: 350px;
+  /* margin-top: px; */
+}
+
+.downloadButton {
+  position: absolute;
+  padding: 10px 8px;
+  top: 1.9rem;
+  left: 25%;
+  right: 25%;
+  padding: 14px 14px 12px 14px;
+  border: none;
+  border-radius: 50px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.downloadButton:hover{
+  transform: scale(1.1);
+}

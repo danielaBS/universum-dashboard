@@ -1,0 +1,101 @@
+.container__collapse {
+  margin-top: 36px;
+  .collapse {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 40px;
+    box-sizing: border-box;
+
+    width: 100%;
+    height: 5rem;
+    background: #ffffff;
+    border: 1px solid #e1e1e1;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    cursor: pointer;
+    // transition: all 0.5s;
+
+    & p {
+      font-family: 'Inter-Regular';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 22px;
+      color: #000000;
+    }
+  }
+  .collapse_content {
+    width: 100%;
+    // height: auto;
+    margin-top: 0.93rem;
+    background: #ffffff;
+    padding: 0.5rem 0.8rem;
+    padding-bottom: 1rem;
+    box-sizing: border-box;
+    animation: slideDown 0.3s linear;
+    overflow: hidden;
+    transition: all 0.3s linear;
+
+    & > p {
+      font-family: 'Inter-Regular';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      margin-top: 0;
+    }
+
+    .filters__content {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      // justify-content: center;
+      flex-wrap: wrap;
+      gap: 1.2rem 1.8rem;
+      width: 100%;
+    }
+    .actions__filters {
+      display: flex;
+      justify-content: flex-end;
+      flex-grow: 1;
+      height: 4.4rem;
+      align-items: flex-end;
+    }
+
+    .add__upload_institution {
+      margin-top: 2rem;
+      font-family: 'Inter-Regular';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 22px;
+      color: #afafaf;
+      padding: 0 2rem;
+
+      .add__upload_template {
+        margin-top: 1rem;
+        font-family: 'Inter-Regular';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 22px;
+        color: #191919;
+      }
+    }
+    @media (max-width: 870px) {
+      .add__upload_institution {
+        padding: 0 0rem;
+      }
+    }
+  }
+}
+@keyframes slideDown {
+  0% {
+    max-height: 0;
+  }
+  100% {
+    max-height: 30.6rem;
+  }
+}

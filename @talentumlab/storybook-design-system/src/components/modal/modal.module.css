@@ -1,0 +1,58 @@
+.backdrop {
+  background-color: #323232;
+  opacity: 0.5;
+  position: fixed;
+  /* bottom: 0; */
+  height: 100vh;
+  width: 100%;
+  z-index: 100;
+}
+.modal {
+  /* background-color: rgb(60, 134, 168); */
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 101;
+}
+.modal_dialog {
+  position: relative;
+  background-color: white;
+  border: 0px solid black;
+  border-radius: 10px;
+  box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  margin-right: auto;
+  margin-left: auto;
+  animation: fadein 0.5s ease-in;
+  box-sizing: border-box;
+}
+.modal_close {
+  position: absolute;
+  /* background-color: rgb(81, 153, 153); */
+  padding: 0.2rem;
+  right: 0;
+  top: 0;
+  margin-top: 0.5rem;
+  margin-right: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.modal_content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

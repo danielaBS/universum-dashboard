@@ -1,0 +1,49 @@
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.center {
+  text-align: center;
+}
+
+.flex>.color {
+  flex: 0 0 20%;
+  height: min-content;
+}
+
+.dir {
+  flex-direction: column;
+}
+
+
+.listicon>div {
+  flex: 0 0 10%;
+  margin: 1em 2em;
+}
+
+.listbuttons {
+  margin-top: 1em;
+}
+
+.listbuttons>div {
+  flex: 0 0 30%;
+  margin-bottom: 1em;
+  display: flex;
+  justify-content: space-around;
+}
+
+.margin-0 {
+  margin: 0;
+}
+
+.lisths>h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  flex: 0 0 50%;
+  margin-bottom: 1em;
+}

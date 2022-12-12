@@ -1,0 +1,16 @@
+.container-service3 {
+  /* background-color: teal; */
+  width: 80%;
+}
+.container-service3 > div:first-child {
+  width: 50%;
+  margin-bottom: 3rem;
+}
+.container-service3__row {
+  margin-top: 3rem;
+  display: flex;
+}
+.container-service3__row > div:first-child {
+    width: 30%;
+    margin-right: 3rem;
+}

@@ -1,0 +1,19 @@
+.container-service2 {
+  /* background-color: teal; */
+  width: 80%;
+  display: flex;
+}
+.container-service2__colunm-left {
+  /* background-color: thistle; */
+  width: 65%;
+  margin-right: 3rem;
+}
+.container-service2__colunm-left > div:last-child {
+  margin-top: 3rem;
+}
+.container-service2__colunm-right {
+  width: 35%;
+}
+.container-service2__colunm-right > div:last-child {
+  margin-top: 3rem;
+}

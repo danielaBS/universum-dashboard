@@ -1,0 +1,13 @@
+.button__common {
+  border: none;
+  cursor: default;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  line-height: 17px;
+}
+.button__common_icon {
+  width: auto;
+  margin-right: 0.8rem;
+}

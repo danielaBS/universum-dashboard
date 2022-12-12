@@ -1,0 +1,30 @@
+.blocks {
+  box-shadow: 1px 1px 5px gray;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.blocks__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-top: 0 !important;
+  border-left: 0 !important;
+  border-right: 0 !important;
+}
+
+.block-item:last-child {
+  border-bottom: 0px !important;
+}
+
+.blocks h3,
+.blocks p {
+  text-align: left;
+  margin: 2em 1em;
+}
+.blocks h3 {
+  font-size: 1.2em;
+}
+.blocks p {
+  font-size: 1em;
+}

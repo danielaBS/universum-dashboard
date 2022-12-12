@@ -1,0 +1,29 @@
+// tsconfig.json or jsconfig.json
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@layout/*": [
+                "components/layout/*"
+            ],
+            "@hooks/*": [
+                "components/hooks/*"
+            ],
+            "@consts/*": [
+                "consts/*"
+            ],
+            "@common/*": [
+                "components/common/*"
+            ],
+            "@store/*": [
+                "application/*"
+            ],
+            "@assets/*": [
+                "public/*"
+            ],
+            "@service/*": [
+                "infrastructure/*"
+            ],
+        }
+    }
+}

@@ -1,0 +1,57 @@
+.button {
+    background-color: rgba(255, 255, 255, 0);
+    border: 0;
+    text-decoration-line: underline;
+    border-radius: 2px;
+    padding: 4px 10px;
+    font-family: inherit !important;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button:hover {
+    background-color: rgba(236, 224, 253, 0.455);
+    text-decoration-line: none;
+    cursor: pointer;
+}
+
+.button:focus {
+    background-color: rgb(236, 224, 253);
+    text-decoration-line: none;
+    cursor: pointer;
+}
+
+.button:disabled {
+    color: lightgray !important;
+    text-decoration-line: none;
+    background-color: white !important;
+    cursor: initial;
+}
+
+.button--outlined {
+    border: 1.5px solid;
+}
+
+.button--contained {
+    text-decoration-line: none;
+    box-shadow: 1px 2px 3px gray;
+}
+
+.button--contained:focus {
+    background-color: #0E3192 !important;
+    box-shadow: 0px 0px 1px gray;
+}
+
+.button--contained:hover {
+    background-color: #0E3192 !important;
+}
+
+.button--contained:disabled {
+    color: lightgray !important;
+    text-decoration-line: none;
+    background-color: white !important;
+    cursor: initial;
+    box-shadow: 0px 0px 0px gray;
+}
